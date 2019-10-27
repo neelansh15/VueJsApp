@@ -1,14 +1,23 @@
 <template>
-  <Login />
+  <div>
+    <Login />
+    <Registrations />
+  </div>
 </template>
 
 <script>
 import Login from './components/Login'
+import Registrations from './components/Registrations'
 
 export default {
   name: 'app',
   components: {
-    Login
+    Login, Registrations
+  },
+  data () {
+    return {
+
+    }
   }
 }
 </script>

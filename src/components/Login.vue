@@ -1,19 +1,19 @@
 <template>
-    <div class="container">
-        <div class="hero">
-            <div class="hero-body">
-                <form>
+    <section class="hero is-primary is-bold is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <form v-on:submit="dothis">
                     <div class="field">
                         <label class="label">Username</label>
                         <div class="control">
-                            <input type="text" name="username" placeholder="Username">
+                            <input type="text" name="username" placeholder="Username" v-model="username">
                         </div>
                     </div>
 
                     <div class="field">
                         <label class="label">Password</label>
                         <div class="control">
-                            <input type="text" name="password" placeholder="Password">
+                            <input type="password" name="password" placeholder="Password" v-model="password">
                         </div>
                     </div>
 
@@ -25,12 +25,18 @@
                 </form>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
 export default {
-  name: 'Login'
+  name: 'Login',
+  methods: {
+    dothis (e) {
+      e.preventDefault()
+      alert(this.username + ' ' + this.password)
+    }
+  }
 }
 </script>
 
