@@ -1,13 +1,18 @@
 <template>
-  <h1>Hello</h1>
+  <Login />
 </template>
 
 <script>
+import Login from './components/Login'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Login
+  }
 }
 </script>
 
 <style lang="scss">
-
+@import './assets/bulma.min.css';
 </style>
