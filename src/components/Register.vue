@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-primary is-bold is-fullheight">
+    <section class="hero is-warning is-large">
         <div class="hero-body">
             <div class="container">
 
@@ -46,7 +46,7 @@ export default {
 </script>
 
 <style scoped>
-label{
+/* label{
     color: white;
-}
+} */
 </style>
