@@ -3,9 +3,7 @@
         <div class="hero-body">
             <div class="container">
 
-                <div>
-                    <h1>Register</h1>
-                </div>
+                <h1 class="title">Register</h1>
 
                 <form v-on:submit="register">
                     <div class="field">
