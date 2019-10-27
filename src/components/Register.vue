@@ -22,7 +22,7 @@
 
                     <div class="field">
                         <div class="control">
-                            <button class="button is-primary">Register</button>
+                            <button class="button is-dark">Register</button>
                         </div>
                     </div>
                 </form>
@@ -38,6 +38,8 @@ export default {
     register (e) {
       e.preventDefault()
       this.$emit('register', this.username, this.password)
+      this.username = ''
+      this.password = ''
     }
   }
 }
