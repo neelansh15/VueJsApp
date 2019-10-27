@@ -1,22 +1,43 @@
 <template>
   <div>
-    <Login />
-    <Registrations />
+    <Register v-on:register = addToList />
+    <Registrations :user_list = this.users />
   </div>
 </template>
 
 <script>
-import Login from './components/Login'
+import Register from './components/Register'
 import Registrations from './components/Registrations'
 
 export default {
   name: 'app',
   components: {
-    Login, Registrations
+    Register, Registrations
   },
   data () {
     return {
-
+      users: [
+        // Test Data
+        // {
+        //   id: 1,
+        //   username: 'neelansh',
+        //   password: 'mathur'
+        // },
+        // {
+        //   id: 2,
+        //   username: 'Noice',
+        //   password: 'yayy'
+        // }
+      ]
+    }
+  },
+  methods: {
+    addToList (user, pass) {
+      this.users.push({
+        id: Math.round(Math.random() * 1000),
+        username: user,
+        password: pass
+      })
     }
   }
 }

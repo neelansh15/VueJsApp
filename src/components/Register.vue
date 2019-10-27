@@ -2,7 +2,12 @@
     <section class="hero is-primary is-bold is-fullheight">
         <div class="hero-body">
             <div class="container">
-                <form v-on:submit="dothis">
+
+                <div>
+                    <h1>Register</h1>
+                </div>
+
+                <form v-on:submit="register">
                     <div class="field">
                         <label class="label">Username</label>
                         <div class="control">
@@ -19,7 +24,7 @@
 
                     <div class="field">
                         <div class="control">
-                            <button class="button is-primary">Submit</button>
+                            <button class="button is-primary">Register</button>
                         </div>
                     </div>
                 </form>
@@ -30,16 +35,18 @@
 
 <script>
 export default {
-  name: 'Login',
+  name: 'Register',
   methods: {
-    dothis (e) {
+    register (e) {
       e.preventDefault()
-      alert(this.username + ' ' + this.password)
+      this.$emit('register', this.username, this.password)
     }
   }
 }
 </script>
 
 <style scoped>
-
+label{
+    color: white;
+}
 </style>
