@@ -1,4 +1,5 @@
-# new_project
+# A Basic VueJS App
+### This app gets the entered information, does some data exchange between components and displays the data from the final object
 
 ## Project setup
 ```
