@@ -1,0 +1,53 @@
+[33mcommit 8ce17451bd56650c0239885a29127b16819f9e72[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sun Oct 27 17:43:33 2019 +0530
+
+    Changed background color and title of index.html
+
+[33mcommit e56af61b93f8e943d9faa889d53fe60adca5cb85[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sun Oct 27 17:15:35 2019 +0530
+
+    Changed button color and made the variables reset to "" but the values in the input fields still don't reset...
+
+[33mcommit 2bf120e94b4c40b757266532adf0e926c317bb89[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sun Oct 27 17:06:04 2019 +0530
+
+    Added a Register heading
+
+[33mcommit 221ad128bf800e4b7d188d83ea1140180ae37402[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sun Oct 27 17:03:45 2019 +0530
+
+    Final Working
+
+[33mcommit 2c6bd772572a0a3e3cbabea2e5dc793e7e16edb7[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sun Oct 27 14:46:18 2019 +0530
+
+    New Empty Hero Banner for showing Registrations
+
+[33mcommit e71e5c6f420c18ad7574577c4b1872aa9e5229e3[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sun Oct 27 14:24:00 2019 +0530
+
+    Some Bulma Form design
+
+[33mcommit bec4677ea04bb829f6ffdf1b7a894c96e0b6e84e[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sun Oct 27 14:14:30 2019 +0530
+
+    User and Pass field. Added Bulma CSS
+
+[33mcommit b2f4c6731eb80b597d790c33e8a315ab3106cb28[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sun Oct 27 14:06:29 2019 +0530
+
+    Hello Message
+
+[33mcommit 1b45ea3b5f165a9b878ea98f5099d0ab3232dd30[m
+Author: Neelansh Mathur <neelansh15@outlook.com>
+Date:   Sat Oct 26 23:09:18 2019 +0530
+
+    init
